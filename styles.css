@@ -4,3 +4,36 @@
     src: url(fonts/steampunkdemobymartavaneck-lwee-webfont.woff) format("woff");
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/zoltan-tasi-CLJeQCr2F_A-unsplash\ \(1\).jpg);
+    height: 100vh;
+    width: auto; 
+}
+
+.container{
+    position: relative;
+}
+
+.formBackground {
+    height: 100vh;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: 0;
+    background-color: black;
+    
+}
+
+.horizontalBar{
+    background-color: rgba(112, 128, 144, 0.237);
+    width: 100vw;
+    height: 15vh;
+    position: absolute;
+    top: 35%;
+    transform: translate(0, -35%);
+}
