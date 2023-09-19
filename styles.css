@@ -15,6 +15,16 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
 }
 
 body {
@@ -29,7 +39,7 @@ body {
 
 .formBackground {
     height: 100vh;
-    width: 65vw;
+    width: 60vw;
     margin-left: auto;
     margin-right: 0;
     background-color: #121212;
@@ -41,8 +51,8 @@ body {
     width: 100vw;
     height: 17vh;
     position: absolute;
-    top: 35%;
-    transform: translate(0, -35%);
+    top: 28%;
+    transform: translate(0, -28%);
 }
 
 .logoContainer {
@@ -76,8 +86,50 @@ body {
 
 .headerText {
     color: white;
-    font-size: 2.5vh;
+    font-size: 2.8vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    padding: 16rem 12rem 6rem 12rem ;
+    
 
+}
+
+h2 {
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.form{
+    padding: 0 8rem 0 12rem;
+    }
+
+label {
+    display: block;
+    font-size: 1.2rem;
+}
+
+.formObject{
+    display: inline-block;
+    margin-right: 100px;
+    }
+
+input{
+    width: 250px;
+    height: 2rem;
+    margin: 10px 0 20px 0;
+}
+
+.submit {
+    background-color: #ae8640;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    display: block;
+    margin: 1.5vh 50vw 2vh 0;
+    width: 200px;
+    font-size: 1.2em;
+    border-radius: 5px;
 }
