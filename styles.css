@@ -125,7 +125,8 @@ input{
     width: 250px;
     height: 2rem;
     margin: 10px 0 20px 0;
-}
+    color: black;
+    }
 
 .submit {
     background-color: #ae8640;
@@ -140,4 +141,12 @@ input{
     width: 200px;
     font-size: 1.2em;
     border-radius: 5px;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:valid{
+   border: 2px solid grey;
 }
