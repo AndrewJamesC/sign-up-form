@@ -138,7 +138,7 @@ input{
     font-weight: bolder;
     display: block;
     margin: 1.5vh 50vw 2vh 0;
-    width: 200px;
+    width: 250px;
     font-size: 1.2em;
     border-radius: 5px;
 }
@@ -149,4 +149,13 @@ input:invalid {
 
 input:valid{
    border: 2px solid grey;
+}
+
+.logIn {
+    color: #ae8640;
+}
+
+li p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
 }
