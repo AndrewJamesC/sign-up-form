@@ -45,7 +45,7 @@ body {
 }
 
 .odinImg {
-    height: 14vh;
+    height: 16vh;
     width: auto;
     position: absolute;
     top: 50%;
@@ -55,3 +55,12 @@ body {
 
 }
 
+.logoText {
+    font-size: 14vh;
+    color: white;
+    font-family: "steampunk", sans-serif;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-left: 15vw;
+}
