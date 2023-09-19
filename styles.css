@@ -83,16 +83,23 @@ body {
     margin-left: 15vw;
    
 }
+.headerText{
+    padding: 16rem 12rem 1rem 12rem ;
+}
+.secondaryHeaderText {
+    padding: 0 12rem 3rem 12rem ;
+}
 
-.headerText {
+
+.headerText,
+.secondaryHeaderText {
     color: white;
     font-size: 2.8vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    padding: 16rem 12rem 6rem 12rem ;
-    
+    }
 
-}
+
 
 h2 {
     padding-bottom: 50px;
@@ -106,6 +113,7 @@ h2 {
 label {
     display: block;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .formObject{
