@@ -30,10 +30,28 @@ body {
 }
 
 .horizontalBar{
-    background-color: rgba(112, 128, 144, 0.237);
+    background-image: linear-gradient(to right, rgba(40, 40, 40, 0.3), rgba(18, 18, 18, 0.01));
     width: 100vw;
-    height: 15vh;
+    height: 17vh;
     position: absolute;
     top: 35%;
     transform: translate(0, -35%);
 }
+
+.logoContainer {
+    height: 100%;
+    position: relative;
+
+}
+
+.odinImg {
+    height: 14vh;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-left: 8.75vw;
+
+
+}
+
