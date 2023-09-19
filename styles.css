@@ -8,6 +8,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -41,7 +48,7 @@ body {
 .logoContainer {
     height: 100%;
     position: relative;
-
+    
 }
 
 .odinImg {
@@ -51,6 +58,7 @@ body {
     top: 50%;
     transform: translate(0, -50%);
     margin-left: 8.75vw;
+    
 
 
 }
@@ -63,4 +71,13 @@ body {
     top: 50%;
     transform: translate(0, -50%);
     margin-left: 15vw;
+   
+}
+
+.headerText {
+    color: white;
+    font-size: 2.5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
 }
