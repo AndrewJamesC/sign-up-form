@@ -51,8 +51,8 @@ body {
     width: 100vw;
     height: 17vh;
     position: absolute;
-    top: 28%;
-    transform: translate(0, -28%);
+    top: 25%;
+    transform: translate(0, -25%);
 }
 
 .logoContainer {
@@ -84,7 +84,7 @@ body {
    
 }
 .headerText{
-    padding: 16rem 12rem 1rem 12rem ;
+    padding: 13rem 12rem 1rem 12rem ;
 }
 .secondaryHeaderText {
     padding: 0 12rem 3rem 12rem ;
